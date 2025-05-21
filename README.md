@@ -5,6 +5,22 @@
 
 ---
 
-### innledning 
+## Kursplan
 
-i dette kurset skal vi vise hvordan man bruker version controll 
+Kurset starter med at vi viser første slide på powerpointen og introduserer oss:
+
+- INTRO: Forteller kort om hvem vi er og hva vi har jobbet med, eks:
+  - Vis Apinor
+  - Vis NM prosjekt
+  - Vis Surprisen.no
+
+- Forklare forskjell på GIT og Github
+
+
+- Vise Git kommandoer med eksempler:
+  - git init
+  - git pull
+  - git commit
+  - git push
+- Vise hvordan Github gjør ting enklere med Github desktop
+
