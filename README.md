@@ -24,6 +24,6 @@ Kurset starter med at vi viser første slide på powerpointen og introduserer os
 - Vise hvordan Github gjør ting enklere med Github desktop
 
 
-## Gvordan fungerer git 📦
+## Hvordan fungerer git 📦
 
 ![image](https://github.com/user-attachments/assets/69eff283-d6ae-4f41-b139-481c6034c190)
