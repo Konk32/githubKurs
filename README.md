@@ -2,7 +2,6 @@
 
 ## Dette repositoriet er plan og eksempel for git og github kurs
 
-
 ---
 
 ## Kursplan
@@ -16,11 +15,10 @@ Kurset starter med at vi viser første slide på powerpointen og introduserer os
 
 - Forklare forskjell på GIT og Github
 
-
 - Vise Git kommandoer med eksempler:
   - git init
   - git pull
   - git commit
   - git push
-- Vise hvordan Github gjør ting enklere med Github desktop
 
+- Vise hvordan Github gjør ting enklere med Github desktop
