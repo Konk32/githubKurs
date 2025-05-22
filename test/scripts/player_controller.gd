@@ -3,6 +3,7 @@ class_name PlayerController
 
 @export var move_speed = 20.0
 @export var sprint_increase = 1.5
+@export var global_position_exported: Vector2
 
 var direction : Vector2
 var sprinting = false
@@ -40,3 +41,8 @@ func  _physics_process(delta):
 	direction = direction.normalized()	
 	velocity = direction * move_speed * delta * 200 * sprint_multiplier
 	move_and_slide()
+
+
+
+func _process(_delta):
+	global_position_exported = global_position

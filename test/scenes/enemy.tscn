@@ -1,0 +1,33 @@
+[gd_scene load_steps=5 format=3 uid="uid://cmjicfg6urmlo"]
+
+[ext_resource type="Script" uid="uid://be46hcj27j7b8" path="res://scripts/enemy.gd" id="1_md0e3"]
+[ext_resource type="Texture2D" uid="uid://d0jt55umq2xtn" path="res://retro-cartoon-creepy-tarantula-free-png.png" id="2_md0e3"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_5uy6h"]
+radius = 9.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_c4w8v"]
+radius = 88.0511
+
+[node name="Enemy" type="CharacterBody2D"]
+collision_layer = 0
+script = ExtResource("1_md0e3")
+move_speed = 50.0
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-3.57628e-07, -12.375)
+scale = Vector2(0.0206262, 0.028934)
+texture = ExtResource("2_md0e3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -15)
+shape = SubResource("CapsuleShape2D_5uy6h")
+
+[node name="detection_circle" type="Area2D" parent="."]
+position = Vector2(0, 28)
+scale = Vector2(1.88, 1.88)
+
+[node name="detection_circle" type="CollisionShape2D" parent="detection_circle"]
+position = Vector2(0, -15)
+shape = SubResource("CircleShape2D_c4w8v")
+debug_color = Color(0.992157, 0, 0, 0.192157)
